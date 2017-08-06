@@ -1,0 +1,93 @@
+form.login-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  // margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  
+  label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    
+    input {
+      font: 18px Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+      display: block;
+      border: none;
+      border-bottom: 3px solid $blue;
+      background: transparent;
+      max-width: 80%;
+      padding: 20px 0;
+      width: 300px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+      
+      &::placeholder {
+        transition: all 0.2s ease-in-out;
+        color: #999;
+        font: 18px Helvetica, Arial, sans-serif;
+      }
+      
+      &:focus, &.populated {
+        padding-top: 28px;
+        padding-bottom: 12px;
+        
+        &::placeholder {
+          color: transparent;
+        }
+        
+        & + span {
+          opacity: 1;
+          top: 10px;
+        }
+      }
+    } 
+    
+    span {
+      color: $blue;
+      font: 13px Helvetica, Arial, sans-serif;
+      position: absolute;
+      top: 0px;
+      left: 30px;
+      opacity: 0;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  
+  a.submit-btn {
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: $blue;
+    color: #fff;
+    padding: 16px 40px;
+    max-width: 60%;
+    align-items: flex-start;
+    text-align: center;
+    user-select: none;
+    white-space: pre;
+    
+    &:hover {
+      background: $gold;
+    }
+  }
+}
+
+label.passwordInput {
+  position: relative;
+  
+  i.fa-eye,
+  i.fa-eye-slash {
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 88.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f1e3;
+      }
+    </style>
+  </defs>
+  <title>transactions</title>
+  <path class="cls-1" d="M49.84,6A2,2,0,0,0,48,8v4h4V8a2,2,0,0,0-2-2ZM8,14v6H92V14Zm5,8V71a1,1,0,0,0,1,1H86a1,1,0,0,0,1-1V22H13ZM39,35v5H67v5H29ZM33,49H71L61,59V54H33ZM48,74v3.19L35.53,90.65a2,2,0,0,0,2.93,2.73h0L48,83.12V90a2,2,0,1,0,4,.06s0,0,0-.06V83.12l9.53,10.25a2,2,0,0,0,2.95-2.71h0L52,77.21V74Z" transform="translate(-8 -5.99)"/>
+</svg>

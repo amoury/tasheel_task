@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f1e3;
+      }
+    </style>
+  </defs>
+  <title>reports</title>
+  <g>
+    <path class="cls-1" d="M15.24,49.3a4.27,4.27,0,1,0,8.55,0H19.51V45A4.28,4.28,0,0,0,15.24,49.3Zm7.4,1a3.28,3.28,0,1,1-4.12-4.12V50.3h4.12Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M20.39,44.15v4.28h4.27A4.28,4.28,0,0,0,20.39,44.15Zm1,3.28V45.3a3.29,3.29,0,0,1,2.12,2.12Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M19.51,58.15a4.28,4.28,0,1,0,4.27,4.28H19.51Zm3.12,5.28a3.28,3.28,0,1,1-4.12-4.12v4.12h4.12Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M20.39,57.26v4.28h4.27A4.28,4.28,0,0,0,20.39,57.26Zm1,3.28V58.42a3.29,3.29,0,0,1,2.12,2.12Z" transform="translate(-5.5 -10.11)"/>
+    <rect class="cls-1" x="22.38" y="36.92" width="20.89" height="1"/>
+    <rect class="cls-1" x="22.38" y="40.43" width="20.89" height="1"/>
+    <rect class="cls-1" x="22.38" y="49.63" width="20.89" height="1"/>
+    <rect class="cls-1" x="22.38" y="53.14" width="20.89" height="1"/>
+    <rect class="cls-1" x="29.58" y="22.31" width="1" height="3.22"/>
+    <rect class="cls-1" x="33.68" y="14.84" width="1" height="10.69"/>
+    <rect class="cls-1" x="37.78" y="9.41" width="1" height="16.12"/>
+    <rect class="cls-1" x="41.88" y="19.69" width="1" height="5.84"/>
+    <path class="cls-1" d="M22.68,27A3.73,3.73,0,1,0,19,23.25,3.73,3.73,0,0,0,22.68,27Zm0-6.46A2.73,2.73,0,1,1,20,23.25,2.73,2.73,0,0,1,22.68,20.52Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M18.9,27.83s-3.78,0-3.78,3.53v4.28h7.38Zm-2.78,3.53a2.43,2.43,0,0,1,2.17-2.47l2.65,5.75H16.12Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M30.24,35.64V31.36c0-3.48-3.78-3.53-3.78-3.53l-3.6,7.81Zm-3.16-6.75a2.43,2.43,0,0,1,2.16,2.47v3.28H24.42Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M22.68,28.21H20.43l2.25,5,2.25-5Zm-.7,1h1.4l-.7,1.55Z" transform="translate(-5.5 -10.11)"/>
+    <path class="cls-1" d="M58.5,60.43l-2.25-1.76V25.55l2.25-1.76V10.11H5.5V23.79l2.25,1.76V58.67L5.5,60.43V74.11h53Zm-1,12.68H6.5V60.91l1.86-1.46.39-.3V25.06l-.39-.3L6.5,23.3V11.11h51V23.3l-1.87,1.46-.38.3v34.1l.38.3,1.87,1.46Z" transform="translate(-5.5 -10.11)"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "ThePracticalMan",
+  "version": "1.0.0",
+  "description": "This is a recreation of the ecommerce site thepracticalman.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cache": "^0.4.5",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://designwithmath@bitbucket.org/designwithmath/recreation_thepracticalman.git"
+  },
+  "homepage": "https://bitbucket.org/designwithmath/recreation_thepracticalman#readme",
+  "dependencies": {
+    "chart.js": "^2.6.0"
+  }
+}

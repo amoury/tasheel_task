@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tasheel Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Estemarat Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row dashboard-wrapper" style="display: flex;">
+
+<!-- Navigation -->
+      <div class="col-md-1 nav-col">
+        <ul class="side__nav">
+					<a href="#">
+							<li class="side__nav-user-profile">
+								<div class="side__nav-profile-image-container" style="background-image: url('images/user-profile.png')">
+								</div>
+								<p class="text-center side__nav-username">Ahmed Salama</p>
+							</li>
+					</a>
+					<a href="#" class="side__nav-item menu-active">
+						<li class="side__nav-icons">
+							<img src="images/icons/dashboard.svg" alt="" class="side__nav-icon">
+							<p>Dashboard</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/personnel.svg" alt="" class="side__nav-icon">
+							<p>Personnel</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/management.svg" alt="" class="side__nav-icon">
+							<p>Management</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/discounts.svg" alt="" class="side__nav-icon">
+							<p>Discounts</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/receipts.svg" alt="" class="side__nav-icon">
+							<p>Receipts</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/bank-guarantee.svg" alt="" class="side__nav-icon">
+							<p>Bank Guarantee</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/contracts.svg" alt="" class="side__nav-icon">
+							<p>Contracts</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/reports.svg" alt="" class="side__nav-icon">
+							<p>Reports</p>
+						</li>
+					</a>
+					<a href="#" class="side__nav-item">
+						<li class="side__nav-icons">
+							<img src="images/icons/transactions.svg" alt="" class="side__nav-icon">
+							<p>Transactions</p>
+						</li>
+					</a>
+				</ul>
+			</div>
+
+<!-- Dashboard  -->
+			<div class="col-md-11 dashboard-col">
+
+<!-- Header  -->
+				<header>
+					<div class="header__search-bar">
+						<input type="text" class="search-input" placeholder="Search">
+					</div>
+					<div class="header__message-notification">
+						<a href="#"><i class="fa fa-comments"></i></a>
+						<div class="header__message-box">
+							<ul>
+								<li>Message Box</li>
+								<li>Hello there</li>
+								<li>Hey Ahmad</li>
+								<li>Survey Results</li>
+							</ul>
+						</div>
+					</div>
+					<div class="header__settings-icon">
+						<a href="#"><i class="fa fa-cog"></i></a>
+					</div>
+					<div class="header__logout-icon">
+						<a href="http://localhost:3000"><i class="fa fa-sign-out"></i></a>
+					</div>
+				</header>
+
+				<main class="row">
+					<h1 class="dashboard__title">Dashboard</h1>
+					<div class="row dashboard__widget-row">
+						<div class="col-md-4 dashboard__graph-widget">
+							<canvas id="myChart"></canvas>
+						</div>
+
+						<div class="col-md-7 dashboard__circulars-widget">
+							<h2 class="dashboard__widget-title text-center">
+								Administrative Circular
+							</h2>
+							<div class="row">
+								<table style="width: 100%">
+									<tr class="circulars__widget-table-head">
+										<th class="text-center">Date</th>
+										<th class="text-center">From</th>
+										<th class="text-center">Subject</th>
+										<th class="text-center" colspan="2">Actions</th>
+									</tr>
+
+									<tr>
+										<td>31/07/2017</td>
+										<td>Yara Gabr</td>
+										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td class="view-button btn btn-success">
+											<a href="#">View</a></td>
+										<td class="delete-button btn btn-danger">
+											<i class="fa fa-trash" aria-hidden="true"></i>
+										</td>
+									</tr>
+
+									<tr>
+										<td>31/07/2017</td>
+										<td>Yara Gabr</td>
+										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td class="view-button btn btn-success">
+											<a href="#">View</a></td>
+										<td class="delete-button btn btn-danger">
+											<i class="fa fa-trash" aria-hidden="true"></i>
+										</td>
+									</tr>
+
+									<tr>
+										<td>31/07/2017</td>
+										<td>Yara Gabr</td>
+										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td class="view-button btn btn-success">
+											<a href="#">View</a></td>
+										<td class="delete-button btn btn-danger">
+											<i class="fa fa-trash" aria-hidden="true"></i>
+										</td>
+									</tr>
+
+								</table>
+							</div>
+						</div><!-- /.dashboard__circulars-widget -->		
+
+					</div><!-- /.dashboard__widget-row -->
+
+<!-- Summary Row -->
+
+					<section id="summary">
+						<h2>Summary</h2>
+
+						<div class="summary__tab-box">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#personnel" aria-controls="personnel" role="tab" data-toggle="tab">Personnel</a></li>
+								<li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Discount</a></li>
+								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+								<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in active" id="personnel">
+
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="discount">Ansar</div>
+								<div role="tabpanel" class="tab-pane fade" id="messages">Memon</div>
+								<div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+							</div>
+						</div>
+
+
+					</section>
+					
+				</main>
+			</div>
+    </div>
+  </div>
+<!--build:js js/main.min.js -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/chart.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
