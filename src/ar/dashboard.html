@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <title>Tasheel Dashboard</title>
@@ -8,11 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Amiri|Merriweather|Merriweather+Sans" rel="stylesheet">
     <!-- build:css css/main.min.css -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- endbuild -->
 </head>
 
-<body>
+<body class="dashboard__arabic" dir="rtl">
   <div class="container-fluid">
     <div class="row dashboard-wrapper" style="display: flex;">
 
@@ -21,63 +21,63 @@
         <ul class="side__nav">
 					<a href="#">
 							<li class="side__nav-user-profile">
-								<div class="side__nav-profile-image-container" style="background-image: url('images/user-profile.png')">
+								<div class="side__nav-profile-image-container" style="background-image: url('../images/user-profile.png')">
 								</div>
 								<p class="text-center side__nav-username">Ahmed Salama</p>
 							</li>
 					</a>
 					<a href="#" class="side__nav-item menu-active">
 						<li class="side__nav-icons">
-							<img src="images/icons/dashboard.svg" alt="" class="side__nav-icon">
-							<p>Dashboard</p>
+							<img src="../images/icons/dashboard.svg" alt="" class="side__nav-icon">
+							<p>لوحة القيادة</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/personnel.svg" alt="" class="side__nav-icon">
-							<p>Personnel</p>
+							<img src="../images/icons/personnel.svg" alt="" class="side__nav-icon">
+							<p>شؤون الموظفين</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/management.svg" alt="" class="side__nav-icon">
-							<p>Management</p>
+							<img src="../images/icons/management.svg" alt="" class="side__nav-icon">
+							<p>إدارة</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/discounts.svg" alt="" class="side__nav-icon">
-							<p>Discounts</p>
+							<img src="../images/icons/discounts.svg" alt="" class="side__nav-icon">
+							<p>تخفيض</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/receipts.svg" alt="" class="side__nav-icon">
-							<p>Receipts</p>
+							<img src="../images/icons/receipts.svg" alt="" class="side__nav-icon">
+							<p>المبالغ المستلمة</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/bank-guarantee.svg" alt="" class="side__nav-icon">
-							<p>Bank Guarantee</p>
+							<img src="../images/icons/bank-guarantee.svg" alt="" class="side__nav-icon">
+							<p>ضمان بنكي</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/contracts.svg" alt="" class="side__nav-icon">
-							<p>Contracts</p>
+							<img src="../images/icons/contracts.svg" alt="" class="side__nav-icon">
+							<p>انكماش</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/reports.svg" alt="" class="side__nav-icon">
-							<p>Reports</p>
+							<img src="../images/icons/reports.svg" alt="" class="side__nav-icon">
+							<p>تقارير</p>
 						</li>
 					</a>
 					<a href="#" class="side__nav-item">
 						<li class="side__nav-icons">
-							<img src="images/icons/transactions.svg" alt="" class="side__nav-icon">
-							<p>Transactions</p>
+							<img src="../images/icons/transactions.svg" alt="" class="side__nav-icon">
+							<p>المعاملات</p>
 						</li>
 					</a>
 				</ul>
@@ -89,7 +89,7 @@
 <!-- Header  -->
 				<header>
 					<div class="header__search-bar">
-						<input type="text" class="search-input" placeholder="Search">
+						<input type="text" class="search-input" placeholder="بحث">
 					</div>
 					<div class="header__message-notification">
 						<a href="#"><i class="fa fa-comments"></i></a>
@@ -106,12 +106,12 @@
 						<a href="#"><i class="fa fa-cog"></i></a>
 					</div>
 					<div class="header__logout-icon">
-						<a href="http://localhost:3000"><i class="fa fa-sign-out"></i></a>
+						<a href="http://localhost:3000/ar"><i class="fa fa-sign-out"></i></a>
 					</div>
 				</header>
 
 				<main class="row">
-					<h1 class="dashboard__title">Dashboard</h1>
+					<h1 class="dashboard__title">لوحة القيادة</h1>
 					<div class="row dashboard__widget-row">
 						<div class="col-md-4 dashboard__graph-widget">
 							<canvas id="myChart"></canvas>
@@ -119,45 +119,45 @@
 
 						<div class="col-md-7 dashboard__circulars-widget">
 							<h2 class="dashboard__widget-title text-center">
-								Administrative Circular
+								التعميم الإداري
 							</h2>
 							<div class="row">
 								<table style="width: 100%">
 									<tr class="circulars__widget-table-head">
-										<th class="text-center">Date</th>
-										<th class="text-center">From</th>
-										<th class="text-center">Subject</th>
-										<th class="text-center" colspan="2">Actions</th>
+										<th class="text-center">تاريخ</th>
+										<th class="text-center">من عند</th>
+										<th class="text-center">موضوع</th>
+										<th class="text-center" colspan="2">أفعال</th>
 									</tr>
 
 									<tr>
-										<td>31/07/2017</td>
-										<td>Yara Gabr</td>
-										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td>٢٠١٧/٣١/٠٧</td>
+										<td>يارا جبر</td>
+										<td>مسح الموظفين على مقهى الموناليزا للموظفين</td>
 										<td class="view-button btn btn-success">
-											<a href="#">View</a></td>
+											<a href="#">رأي</a></td>
 										<td class="delete-button btn btn-danger">
 											<i class="fa fa-trash" aria-hidden="true"></i>
 										</td>
 									</tr>
 
 									<tr>
-										<td>31/07/2017</td>
-										<td>Yara Gabr</td>
-										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td>٢٠١٧/٣١/٠٧</td>
+										<td>يارا جبر</td>
+										<td>مسح الموظفين على مقهى الموناليزا للموظفين</td>
 										<td class="view-button btn btn-success">
-											<a href="#">View</a></td>
+											<a href="#">رأي</a></td>
 										<td class="delete-button btn btn-danger">
 											<i class="fa fa-trash" aria-hidden="true"></i>
 										</td>
 									</tr>
 
 									<tr>
-										<td>31/07/2017</td>
-										<td>Yara Gabr</td>
-										<td>Staff Survey on Mona Lisa Cafe for employees</td>
+										<td>٢٠١٧/٣١/٠٧</td>
+										<td>يارا جبر</td>
+										<td>مسح الموظفين على مقهى الموناليزا للموظفين</td>
 										<td class="view-button btn btn-success">
-											<a href="#">View</a></td>
+											<a href="#">رأي</a></td>
 										<td class="delete-button btn btn-danger">
 											<i class="fa fa-trash" aria-hidden="true"></i>
 										</td>
@@ -172,14 +172,14 @@
 <!-- Summary Row -->
 
 					<section id="summary">
-						<h2 class="summary__title">Summary</h2>
+						<h2 class="summary__title">ملخص</h2>
 
 						<div class="summary__tab-box">
 							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation" class="active"><a href="#personnel" aria-controls="personnel" role="tab" data-toggle="tab">Personnel</a></li>
-								<li role="presentation"><a href="#customers" aria-controls="customers" role="tab" data-toggle="tab">Customers</a></li>
-								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-								<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+								<li role="presentation" class="active"><a href="#personnel" aria-controls="personnel" role="tab" data-toggle="tab">شؤون الموظفين</a></li>
+								<li role="presentation"><a href="#customers" aria-controls="customers" role="tab" data-toggle="tab">الزبائن</a></li>
+								<!-- <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+								<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li> -->
 							</ul>
 
 							<!-- Tab panes -->
@@ -187,20 +187,20 @@
 								<div role="tabpanel" class="tab-pane fade in active" id="personnel">
 									<div class="personnel__chart row">
 										<div class="col-md-4">
-											<h2>Total Number of employees as per Department</h2>
+											<h2>إجمالي عدد الموظفين حسب الدائرة</h2>
 											<canvas id="employeeCount"></canvas>
 										</div>
 										<div class="col-md-4 quick-access-links">
-											<h2>Quick Access Links</h2>
+											<h2>روابط الوصول السريع</h2>
 											<ul>
-												<li><a href="#">Management</a></li>
-												<li><a href="#">Job Applications</a></li>
-												<li><a href="#">Offer Letters</a></li>
-												<li><a href="#">Leave Schedule</a></li>
+												<li><a href="#">إدارة</a></li>
+												<li><a href="#">تطبيقات وظيفة</a></li>
+												<li><a href="#">عرض الرسائل</a></li>
+												<li><a href="#">ترك جدول</a></li>
 											</ul>
 										</div>
 										<div class="col-md-4">
-											<h2>New Applicants</h2>
+											<h2>المتقدمين الجدد</h2>
 											<canvas id="newApplicants"></canvas>
 										</div>
 										
@@ -210,45 +210,45 @@
 								<div role="tabpanel" class="tab-pane fade" id="customers">
 									<div class="row customer__stats-row">
 										<div class="customer__single-stat">
-											<h2>New Customers</h2>
-											<span class="customer__stat-number">50</span>
+											<h2>زبائن الجدد</h2>
+											<span class="customer__stat-number">٥٠</span>
 										</div>
 										<div class="customer__single-stat">
-											<h2>New Invoices Generated</h2>
-											<span class="customer__stat-number">145</span>
+											<h2>الفواتير الجديدة التي تم إنشاؤها</h2>
+											<span class="customer__stat-number">١٤٥</span>
 										</div>
 										<div class="customer__single-stat">
-											<h2>Pending Transactions</h2>
-											<span class="customer__stat-number">35</span>
+											<h2>في انتظار المعاملات</h2>
+											<span class="customer__stat-number">٣٥</span>
 										</div>
 										<div class="customer__single-stat">
-											<h2>Total Discounts Offered</h2>
-											<span class="customer__stat-number">87</span>
+											<h2>إجمالي الخصومات المقدمة</h2>
+											<span class="customer__stat-number">٨٧</span>
 										</div>
 									</div>
 
 									<div class="row customer__charts">
 										<div class="col-md-3">
-											<h2>Total Customer Cases</h2>
+											<h2>إجمالي حالات العملاء</h2>
 											<canvas id="customer-cases"></canvas>
 										</div>
 										<div class="col-md-3 quick-access-links">
-											<h2>Quick Access Links</h2>
+											<h2>روابط الوصول السريع</h2>
 											<ul>
-												<li><a href="#">Customer Data</a></li>
-												<li><a href="#">Transactions</a></li>
-												<li><a href="#">Unresolved Cases</a></li>
-												<li><a href="#">Customer Balance</a></li>
+												<li><a href="#">بيانات العميل</a></li>
+												<li><a href="#">المعاملات</a></li>
+												<li><a href="#">الحالات التي لم تحل</a></li>
+												<li><a href="#">رصيد العميل</a></li>
 											</ul>
 										</div>
 										<div class="col-md-6">
-											<h2>Customer Growth Rate</h2>
+											<h2>معدل نمو العملاء</h2>
 											<canvas id="customer__growth-chart"></canvas>
 										</div>
 									</div>
 								</div>
-								<div role="tabpanel" class="tab-pane fade" id="messages">Memon</div>
-								<div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+								<!-- <div role="tabpanel" class="tab-pane fade" id="messages"></div>
+								<div role="tabpanel" class="tab-pane fade" id="settings">...</div> -->
 							</div>
 						</div>
 
@@ -260,10 +260,11 @@
     </div>
   </div>
 <!--build:js js/main.min.js -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/chart.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/chart.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/ArChart.js"></script>
     <!-- endbuild -->
 </body>
 

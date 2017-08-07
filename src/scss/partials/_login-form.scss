@@ -91,3 +91,23 @@ label.passwordInput {
     cursor: pointer;
   }
 }
+
+
+
+body.arabic {
+  form.login-form {
+    label {
+      span {
+        right: 30px;
+      }
+    }
+
+    label.passwordInput {
+      i.fa-eye,
+      i.fa-eye-slash {
+        left: 50px;
+        right: 245px;
+      }
+    }
+  }
+}

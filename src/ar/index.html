@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>Tasheel Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Estemarat Dashboard">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Merriweather|Merriweather+Sans" rel="stylesheet">
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body class="arabic" dir="rtl">
+	<div class="body-wrapper">
+    <div class="dashboard__wrapping-row row">
+        <div class="form-box col-md-6">
+            <div class="welcome-box">
+              <img class="img-responsive" src="../images/Logo.png" alt="Main Logo">
+							<h1>مرحبا بكم في المشرف</h1>
+            </div>
+            <div class="vertical-seperator"></div>
+            <div class="form-fields">
+							<form action="" class="login-form">
+								<label>
+									<input id="username" type="text" placeholder="اسم المستخدم">
+									<span>اسم المستخدم</span>
+								</label>
+								
+								<label class="passwordInput">
+									<i class="fa fa-eye showPassword" onclick="showPassword();"></i>
+									<input type="password" placeholder="كلمه السر" id="passwordInput">
+									<span>كلمه السر</span>
+								</label>
+							
+								<a href="/dashboard.html" class="submit-btn" id="submit-btn" onclick="getFormValues(event);">تسجيل الدخول</a>
+							</form>
+						</div>
+				</div>
+				<div class="row language__switch-row">
+					<p>Change the language to <a href="http://localhost:3000/">English</a></p>
+				</div>
+		</div>
+
+
+    <!--build:js js/main.min.js -->
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
